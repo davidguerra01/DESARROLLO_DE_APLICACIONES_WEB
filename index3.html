@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heladería "La Era Helada"</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Heladería "La Era Helada"</h1>
+    <h2>2x1 Miércoles y Viernes</h2>
+    <p><strong>Sabores auténticos de la naturaleza</strong></p>
+    <img src="assets/images1.jpg" alt="Heladería La Era Helada">
+    <p>¡Disfruta de nuestros deliciosos helados artesanales!</p>
+  </header>
+
+  <main>
+    <section id="sabores">
+      <h2>Nuestros Sabores</h2>
+      <nav>
+        <ul>
+          <li>chocolate</li>
+          <li>fresa</li>
+          <li>vainilla</li>
+          <li>mango</li>
+        </ul>
+      </nav>
+      <ol>
+        <li>ron pasas</li>
+        <li>coco</li>
+        <li>manjar</li>
+        <li>cafe</li>
+      </ol>
+    </section>
+
+    <section id="precios">
+  <h3>Precios</h3>
+  <table class="tabla-profesional" border="2" cellpadding="10" cellspacing="0">
+    <caption>Lista de precios por tamaño de helado</caption>
+    <thead>
+      <tr>
+        <th>Tamaño</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1 bola</td>
+        <td>Sabor individual</td>
+        <td>$0.50</td>
+      </tr>
+      <tr>
+        <td>2 bolas</td>
+        <td>Combinación de sabores</td>
+        <td>$1.00</td>
+      </tr>
+      <tr>
+        <td>3 bolas</td>
+        <td>Variedad completa</td>
+        <td>$1.50</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><strong>Total promedio por cliente</strong></td>
+        <td><strong>$1.25</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+    <section id="video">
+      <h3>¿Cómo preparamos nuestros helados?</h3>
+      <video controls width="500">
+        <source src="assets/Helado de mango.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </section>
+
+   <section id="sabores-extra">
+  <h3>Otros Sabores Disponibles</h3>
+  <table class="tabla" border="2" cellpadding="10" cellspacing="0">
+    <caption>Listado completo de sabores por categoría</caption>
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Sabores</th>
+        <th>Disponibilidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Frutales -->
+      <tr>
+        <td rowspan="4" class="categoria">Frutales</td>
+        <td>Fresa</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Uva</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Melón</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Lúcuma</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+
+      <!-- Clásicos -->
+      <tr>
+        <td rowspan="4" class="categoria">Clásicos</td>
+        <td>Vainilla</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Chocolate</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Nuez</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Oreo</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+
+      <!-- Tropicales -->
+      <tr>
+        <td rowspan="4" class="categoria">Tropicales</td>
+        <td>Mango</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Piña</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Maracuyá</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Banano</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+
+      <!-- Exóticos -->
+      <tr>
+        <td rowspan="4" class="categoria">Exóticos</td>
+        <td>Ron Pasas</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Coco</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Té Verde</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Matcha</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+
+      <!-- Veganos -->
+      <tr>
+        <td rowspan="4" class="categoria">Veganos</td>
+        <td>Almendra</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Avena</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Coco sin azúcar</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+      <tr>
+        <td>Mango fresco</td>
+        <td><span class="disponible">✔</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+    <section id="contacto">
+      <h2>¡Pide tu helado!</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="sabor">Sabor favorito:</label>
+        <select id="sabor" name="sabor">
+          <option value="vainilla">Vainilla</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="fresa">Fresa</option>
+        </select>
+
+        <button type="submit">Enviar pedido</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Heladería "La Era Helada" | 
+    <a href="https://www.facebook.com/p/Helader%C3%ADa-La-Era-Helada-100083833733318/?locale=es_LA" target="_blank">Síguenos en Facebook</a></p>
+  </footer>
+
+</body>
+</html>
